@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pendahuluan_fc"
+            android:icon="@drawable/ic_menu_airplay"
+            android:title="@string/menu_pendahuluan_fc" />
+        <item
+            android:id="@+id/nav_vegetatif_fc"
+            android:icon="@drawable/ic_menu_filter_tilt_shift"
+            android:title="@string/menu_vegetatif_fc" />
+        <item
+            android:id="@+id/nav_generatif_1_fc"
+            android:icon="@drawable/ic_menu_filter_vintage"
+            android:title="@string/menu_generatif_1_fc" />
+        <item
+            android:id="@+id/nav_generatif_2_fc"
+            android:icon="@drawable/ic_menu_emergency"
+            android:title="@string/menu_generatif_2_fc" />
+        <item
+            android:id="@+id/nav_generatif_3_fc"
+            android:icon="@drawable/ic_menu_local_florist"
+            android:title="@string/menu_generatif_3_fc" />
+        <item
+            android:id="@+id/nav_fase_masak"
+            android:icon="@drawable/ic_menu_new_releases"
+            android:title="@string/menu_fase_masak" />
+        <item
+            android:id="@+id/nav_pendahuluan_sc"
+            android:icon="@drawable/ic_menu_ac_unit_"
+            android:title="@string/menu_pendahuluan_sc" />
+        <item
+            android:id="@+id/nav_vegetatif_sc"
+            android:icon="@drawable/ic_menu_brightness_5"
+            android:title="@string/menu_vegetatif_sc" />
+        <item
+            android:id="@+id/nav_generatif_1_sc"
+            android:icon="@drawable/ic_menu_brightness_7"
+            android:title="@string/menu_generatif_1_sc" />
+        <item
+            android:id="@+id/nav_generatif_2_sc"
+            android:icon="@drawable/ic_menu_brightness_4"
+            android:title="@string/menu_generatif_2_sc" />
+        <item
+            android:id="@+id/nav_generatif_3_sc"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_generatif_3_sc" />
+
+        <item
+            android:id="@+id/nav_pendahuluan_hc"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_pendahuluan_hc" />
+        <item
+            android:id="@+id/nav_vegetatif_hc"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_vegetatif_hc" />
+        <item
+            android:id="@+id/nav_generatif_1_hc"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_generatif_1_hc" />
+        <item
+            android:id="@+id/nav_generatif_2_hc"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_generatif_2_hc" />
+        <item
+            android:id="@+id/nav_generatif_3_hc"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_generatif_3_hc" />
+
+        <item
+            android:id="@+id/nav_pendahuluan_kentang"
+            android:icon="@drawable/ic_menu_check_box"
+            android:title="@string/menu_pendahuluan_kentang" />
+        <item
+            android:id="@+id/nav_vegetatif_kentang"
+            android:icon="@drawable/ic_menu_check_box"
+            android:title="@string/menu_vegetatif_kentang" />
+        <item
+            android:id="@+id/nav_generatif_1_kentang"
+            android:icon="@drawable/ic_menu_check_box"
+            android:title="@string/menu_generatif_1_kentang" />
+        <item
+            android:id="@+id/nav_generatif_2_kentang"
+            android:icon="@drawable/ic_menu_check_box"
+            android:title="@string/menu_generatif_2_kentang" />
+        <item
+            android:id="@+id/nav_pemeriksaan_gudang_1"
+            android:icon="@drawable/ic_menu_remove_red_eye"
+            android:title="@string/menu_pemeriksaan_gudang_1" />
+
+        <item
+            android:id="@+id/nav_pemeriksaan_gudang_2"
+            android:icon="@drawable/ic_menu_remove_red_eye"
+            android:title="@string/menu_pemeriksaan_gudang_2" />
+
+        <item
+            android:id="@+id/nav_update_cycle"
+            android:icon="@drawable/ic_menu_loop"
+            android:title="@string/menu_update_cycle" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_account_circle"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

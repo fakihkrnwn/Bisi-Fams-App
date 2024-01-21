@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.testbisifams.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pendahuluan_fc"
+        android:name="com.example.testbisifams.ui.pendahuluanFC.PendahuluanFCFragment"
+        android:label="@string/menu_pendahuluan_fc"
+        tools:layout="@layout/fragment_pendahuluan_f_c" />
+
+    <fragment
+        android:id="@+id/nav_vegetatif_fc"
+        android:name="com.example.testbisifams.ui.VegetatifFC.VegetatifFCFragment"
+        android:label="@string/menu_vegetatif_fc"
+        tools:layout="@layout/fragment_vegetatif_f_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_1_fc"
+        android:name="com.example.testbisifams.ui.generatif1FC.Generatif1FCFragment"
+        android:label="@string/menu_generatif_1_fc"
+        tools:layout="@layout/fragment_generatif1_f_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_2_fc"
+        android:name="com.example.testbisifams.ui.generatif2FC.Generatif2FCFragment"
+        android:label="@string/menu_generatif_2_fc"
+        tools:layout="@layout/fragment_generatif2_f_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_3_fc"
+        android:name="com.example.testbisifams.ui.generatif3FC.Generatif3FCFragment"
+        android:label="@string/menu_generatif_3_fc"
+        tools:layout="@layout/fragment_generatif3_f_c" />
+
+    <fragment
+        android:id="@+id/nav_fase_masak"
+        android:name="com.example.testbisifams.ui.fase_masak.FaseMasakFragment"
+        android:label="@string/menu_fase_masak"
+        tools:layout="@layout/fragment_fase_masak" />
+
+    <fragment
+        android:id="@+id/nav_pendahuluan_sc"
+        android:name="com.example.testbisifams.ui.pendahuluanSC.PendahuluanSCFragment"
+        android:label="@string/menu_pendahuluan_sc"
+        tools:layout="@layout/fragment_pendahuluan_s_c" />
+
+    <fragment
+        android:id="@+id/nav_vegetatif_sc"
+        android:name="com.example.testbisifams.ui.vegetatifSC.VegetatifSCFragment"
+        android:label="@string/menu_vegetatif_sc"
+        tools:layout="@layout/fragment_vegetatif_s_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_1_sc"
+        android:name="com.example.testbisifams.ui.generatif1SC.Generatif1SCFragment"
+        android:label="@string/menu_generatif_1_sc"
+        tools:layout="@layout/fragment_generatif1_s_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_2_sc"
+        android:name="com.example.testbisifams.ui.generatif2SC.Generatif2SCFragment"
+        android:label="@string/menu_generatif_2_sc"
+        tools:layout="@layout/fragment_generatif2_s_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_3_sc"
+        android:name="com.example.testbisifams.ui.generatif3SC.Generatif3SCFragment"
+        android:label="@string/menu_generatif_3_sc"
+        tools:layout="@layout/fragment_generatif3_s_c" />
+
+    <fragment
+        android:id="@+id/nav_pendahuluan_hc"
+        android:name="com.example.testbisifams.ui.pendahuluanHC.PendahuluanHCFragment"
+        android:label="@string/menu_pendahuluan_hc"
+        tools:layout="@layout/fragment_pendahuluan_h_c" />
+
+    <fragment
+        android:id="@+id/nav_vegetatif_hc"
+        android:name="com.example.testbisifams.ui.vegetatifHC.VegetatifHCFragment"
+        android:label="@string/menu_vegetatif_hc"
+        tools:layout="@layout/fragment_vegetatif_h_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_1_hc"
+        android:name="com.example.testbisifams.ui.generatif1HC.Generatif1HCFragment"
+        android:label="@string/menu_generatif_1_hc"
+        tools:layout="@layout/fragment_generatif1_h_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_2_hc"
+        android:name="com.example.testbisifams.ui.generatif2HC.Generatif2HCFragment"
+        android:label="@string/menu_generatif_2_hc"
+        tools:layout="@layout/fragment_generatif2_h_c" />
+
+    <fragment
+        android:id="@+id/nav_generatif_3_hc"
+        android:name="com.example.testbisifams.ui.generatif3HC.Generatif3HCFragment"
+        android:label="@string/menu_generatif_3_hc"
+        tools:layout="@layout/fragment_generatif3_h_c" />
+
+    <fragment
+        android:id="@+id/nav_pendahuluan_kentang"
+        android:name="com.example.testbisifams.ui.pendahuluan_kentang.PendahuluanKentangFragment"
+        android:label="@string/menu_pendahuluan_kentang"
+        tools:layout="@layout/fragment_pendahuluan_kentang" />
+
+    <fragment
+        android:id="@+id/nav_vegetatif_kentang"
+        android:name="com.example.testbisifams.ui.vegetatif_kentang.VegetatifKentangFragment"
+        android:label="@string/menu_vegetatif_kentang"
+        tools:layout="@layout/fragment_vegetatif_kentang" />
+
+    <fragment
+        android:id="@+id/nav_generatif_1_kentang"
+        android:name="com.example.testbisifams.ui.generatif1Kentang.Generatif1KentangFragment"
+        android:label="@string/menu_generatif_1_kentang"
+        tools:layout="@layout/fragment_generatif1_kentang" />
+
+    <fragment
+        android:id="@+id/nav_generatif_2_kentang"
+        android:name="com.example.testbisifams.ui.generatif2Kentang.Generatif2KentangFragment"
+        android:label="@string/menu_generatif_2_kentang"
+        tools:layout="@layout/fragment_generatif2_kentang" />
+
+    <fragment
+        android:id="@+id/nav_pemeriksaan_gudang_1"
+        android:name="com.example.testbisifams.ui.pemeriksaan_gudang_1.PemeriksaanGudang1Fragment"
+        android:label="@string/menu_pemeriksaan_gudang_1"
+        tools:layout="@layout/fragment_pemeriksaan_gudang1" />
+
+    <fragment
+        android:id="@+id/nav_pemeriksaan_gudang_2"
+        android:name="com.example.testbisifams.ui.pemeriksaan_gudang_2.PemeriksaanGudang2Fragment"
+        android:label="@string/menu_pemeriksaan_gudang_2"
+        tools:layout="@layout/fragment_pemeriksaan_gudang2" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.testbisifams.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
